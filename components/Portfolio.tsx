@@ -203,7 +203,7 @@ export default function Projects() {
                   </div>
 
                   <p className="text-sm text-gray-600 italic mb-2">
-                    "{project.testimonial}"
+                    &quot;{project.testimonial}&quot;
                   </p>
 
                   <p className="text-xs font-semibold text-navy">
