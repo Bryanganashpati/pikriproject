@@ -6,6 +6,20 @@ import { CheckCircle } from "lucide-react";
 
 const services = [
   {
+    id: "pabrik",
+    title: "Pembangunan Pabrik",
+    image:
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80",
+    description:
+      "Konstruksi pabrik dan fasilitas industri dengan standar keamanan tinggi.",
+    duration: "6 - 18 Bulan",
+    advantages: [
+      "Standar industri",
+      "Tim profesional",
+      "Manajemen proyek terintegrasi",
+    ],
+  },
+  {
     id: "bangun-rumah",
     title: "Jasa Bangun Rumah",
     image:
@@ -87,20 +101,6 @@ const services = [
       "Rapi dan presisi",
       "Material tahan lama",
       "Garansi pemasangan",
-    ],
-  },
-  {
-    id: "pabrik",
-    title: "Pembangunan Pabrik",
-    image:
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80",
-    description:
-      "Konstruksi pabrik dan fasilitas industri dengan standar keamanan tinggi.",
-    duration: "6 - 18 Bulan",
-    advantages: [
-      "Standar industri",
-      "Tim profesional",
-      "Manajemen proyek terintegrasi",
     ],
   },
 ];
