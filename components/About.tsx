@@ -200,24 +200,39 @@ export default function About() {
           </h3>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <img
-              src="/images/team1.jpg"
-              alt="Tim Lapangan"
-              className="rounded-2xl h-72 w-full object-cover"
-            />
+  <div>
+    <img
+      src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80"
+      alt="Tim Lapangan"
+      className="rounded-2xl h-72 w-full object-cover"
+    />
+    <p className="mt-2 text-xs text-gray-500">
+      Foto: Unsplash - Tim Lapangan
+    </p>
+  </div>
 
-            <img
-              src="/images/team2.jpg"
-              alt="Kantor"
-              className="rounded-2xl h-72 w-full object-cover"
-            />
+  <div>
+    <img
+      src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80"
+      alt="Kantor"
+      className="rounded-2xl h-72 w-full object-cover"
+    />
+    <p className="mt-2 text-xs text-gray-500">
+      Foto: Unsplash - Interior Kantor
+    </p>
+  </div>
 
-            <img
-              src="/images/team3.jpg"
-              alt="Proyek"
-              className="rounded-2xl h-72 w-full object-cover"
-            />
-          </div>
+  <div>
+    <img
+      src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+      alt="Proyek"
+      className="rounded-2xl h-72 w-full object-cover"
+    />
+    <p className="mt-2 text-xs text-gray-500">
+      Foto: Unsplash - Proyek Konstruksi
+    </p>
+  </div>
+</div>
         </div>
 
       </div>
