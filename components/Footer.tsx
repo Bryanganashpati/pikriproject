@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Phone, Mail, MapPin, Instagram, Facebook, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 const menuLinks = [
   { label: "Tentang Kami", href: "#about" },
@@ -24,12 +25,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div
-                className="w-10 h-10 flex items-center justify-center"
-                style={{ background: "#C8181E" }}
-              >
-                <span className="text-white font-bold text-xs">CV</span>
-              </div>
+              <Image
+  src="/images/logo.png"
+  alt="CV Logo"
+  width={40}
+  height={40}
+  className="w-10 h-10 object-cover"
+/>
               <div>
                 <p
                   className="text-xs font-bold text-white leading-tight"

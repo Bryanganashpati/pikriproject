@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Tentang Kami", href: "#about" },
@@ -46,14 +47,13 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="flex items-center gap-2">
-              <div
-                className="w-10 h-10 flex items-center justify-center"
-                style={{ background: "#C8181E" }}
-              >
-                <span className="text-white font-bold text-xs leading-tight text-center">
-                  CV
-                </span>
-              </div>
+              <Image
+  src="/images/logo.png"
+  alt="CV Logo"
+  width={40}
+  height={40}
+  className="w-10 h-10 object-cover"
+/>
               <div className="hidden sm:block">
                 <p
                   className={`text-xs font-bold leading-tight ${

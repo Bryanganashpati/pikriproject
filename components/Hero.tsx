@@ -9,7 +9,7 @@ const slides = [
     id: 1,
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80",
     tag: "HELIPORT PROJECT",
-    title: "PT Bangun Era Konstruksi",
+    title: "CV Karunia Andalan Sejahtera",
     subtitle: "Let's build your future through trusted Engineering, Procurement, and Construction.",
   },
   {
