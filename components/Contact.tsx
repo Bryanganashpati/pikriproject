@@ -98,7 +98,7 @@ ${formData.pesan}
                 icon: MapPin,
                 label: "Alamat",
                 value:
-                  "Jl. Indulgent No. 3, Kelurahan Kadu, Kecamatan Curug, Kabupaten Tangerang, Banten 15810",
+                  "Jl. Sudirman, Komplek Pavilion, No. 15, Kel. Perdamaian Stabat",
                 href: "#",
               },
             ].map((item) => {

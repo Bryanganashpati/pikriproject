@@ -114,8 +114,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-primary mt-0.5 shrink-0" />
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  CV Karunia Andalan Sejahtera, Jl. Indulgent No. 3, Kelurahan Kadu, Kecamatan Curug,
-                  Kabupaten Tangerang, Banten 15810, Kabupaten Tangerang, Banten
+                  CV Karunia Andalan Sejahtera, Jl. Sudirman, Komplek Pavilion, No. 15, Kel. Perdamaian Stabat
                 </p>
               </li>
             </ul>
