@@ -54,8 +54,8 @@ export default function Contact() {
               {
                 icon: Phone,
                 label: "Telepon",
-                value: "+62 851-0219-1155",
-                href: "tel:+628510219115",
+                value: "+62 821-6624-1647",
+                href: "tel:+6282166241647",
               },
               {
                 icon: Mail,
