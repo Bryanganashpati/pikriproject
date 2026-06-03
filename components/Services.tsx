@@ -189,7 +189,7 @@ export default function Services() {
         </ul>
 
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/6282166241647"
           target="_blank"
           className="inline-block w-full bg-primary text-white text-center py-3 rounded-lg font-semibold"
         >

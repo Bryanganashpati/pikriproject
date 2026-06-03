@@ -22,7 +22,8 @@ export default function CTA() {
         <p className="text-white/70 text-lg mb-8">
           Build Better with Karunia Andalan Sejahtera
         </p>
-        <Link href="#contact">
+        <Link href="https://wa.me/6282166241647"
+          target="_blank">
           <button className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-3 font-semibold text-sm transition-all duration-300 hover:gap-3">
             <Phone size={16} />
             CONTACT US
