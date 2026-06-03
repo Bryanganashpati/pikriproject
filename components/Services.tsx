@@ -89,20 +89,6 @@ const services = [
       "Harga kompetitif",
     ],
   },
-  {
-    id: "plafon-atap",
-    title: "Plafon & Atap",
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
-    description:
-      "Pemasangan plafon dan atap untuk hunian maupun bangunan komersial.",
-    duration: "1 - 4 Minggu",
-    advantages: [
-      "Rapi dan presisi",
-      "Material tahan lama",
-      "Garansi pemasangan",
-    ],
-  },
 ];
 
 export default function Services() {
