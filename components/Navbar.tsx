@@ -54,7 +54,7 @@ export default function Navbar() {
   height={40}
   className="w-10 h-10 object-cover"
 />
-              <div className="hidden sm:block">
+              <div className="">
                 <p
                   className={`text-xs font-bold leading-tight ${
                     scrolled ? "text-navy" : "text-white"
