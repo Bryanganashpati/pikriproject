@@ -206,9 +206,7 @@ export default function About() {
       alt="Tim Lapangan"
       className="rounded-2xl h-72 w-full object-cover"
     />
-    <p className="mt-2 text-xs text-gray-500">
-      Foto: Unsplash - Tim Lapangan
-    </p>
+    
   </div>
 
   <div>
@@ -217,9 +215,7 @@ export default function About() {
       alt="Kantor"
       className="rounded-2xl h-72 w-full object-cover"
     />
-    <p className="mt-2 text-xs text-gray-500">
-      Foto: Unsplash - Interior Kantor
-    </p>
+    
   </div>
 
   <div>
@@ -228,9 +224,6 @@ export default function About() {
       alt="Proyek"
       className="rounded-2xl h-72 w-full object-cover"
     />
-    <p className="mt-2 text-xs text-gray-500">
-      Foto: Unsplash - Proyek Konstruksi
-    </p>
   </div>
 </div>
         </div>
