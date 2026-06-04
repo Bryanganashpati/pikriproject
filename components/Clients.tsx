@@ -9,32 +9,32 @@ const clients = [
     image: "/images/ecogreen.png",
   },
   {
-    name: "Sarinah",
-    image: "/images/clients/sarinah.png",
+    name: "PT MUSIM MAS",
+    image: "/images/musimmas.png",
   },
   {
-    name: "Whitesky",
-    image: "/images/clients/whitesky.png",
+    name: "PT PACIFIC MEDAN INDUSTRI",
+    image: "/images/pamin.png",
   },
   {
-    name: "Park",
-    image: "/images/clients/park.png",
+    name: "PT EVYAP SABUN INDONESIA",
+    image: "/images/evyap.png",
   },
   {
-    name: "TNI AD",
-    image: "/images/clients/tni-ad.png",
+    name: "PT CHAROEN POKPHAND INDONESIA",
+    image: "/images/pokphand.jpg",
   },
   {
-    name: "Universitas Gadjah Mada",
-    image: "/images/clients/ugm.png",
+    name: "PT BELAWAN TANKI INDONESIA",
+    image: "/images/belawan-tanki-indonesia.jpg",
   },
   {
-    name: "ASA",
-    image: "/images/clients/asa.png",
+    name: "PT GANDAERAH HENDANA",
+    image: "/images/gni.jpg",
   },
   {
-    name: "SKB",
-    image: "/images/clients/skb.png",
+    name: "PT BEPANS KIM",
+    image: "/images/kim.png",
   },
 ];
 
