@@ -1,55 +1,40 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const clients = [
   {
-    name: "Pondok Indah Group",
-    logo: null,
-    text: "PONDOK INDAH GROUP",
-    style: "font-serif font-bold text-gray-700 text-sm",
+    name: "PT ECOGREEN",
+    image: "/images/ecogreen.png",
   },
   {
     name: "Sarinah",
-    logo: null,
-    text: "Sarinah",
-    style: "font-serif italic font-bold text-gray-700 text-xl",
+    image: "/images/clients/sarinah.png",
   },
   {
     name: "Whitesky",
-    logo: null,
-    text: "WHITESKY",
-    style: "font-sans font-bold text-gray-800 text-sm tracking-widest bg-gray-800 text-white px-2 py-1",
+    image: "/images/clients/whitesky.png",
   },
   {
     name: "Park",
-    logo: null,
-    text: "park 🌿",
-    style: "font-sans text-green-700 font-bold text-base",
+    image: "/images/clients/park.png",
   },
   {
     name: "TNI AD",
-    logo: null,
-    text: "TNI AD",
-    style: "font-serif font-bold text-gray-700 text-sm",
+    image: "/images/clients/tni-ad.png",
   },
   {
     name: "Universitas Gadjah Mada",
-    logo: null,
-    text: "UNIVERSITAS GADJAH MADA",
-    style: "font-serif font-bold text-blue-800 text-xs",
+    image: "/images/clients/ugm.png",
   },
   {
     name: "ASA",
-    logo: null,
-    text: "ASA",
-    style: "font-sans font-bold text-white text-xl bg-orange-500 rounded-full w-12 h-12 flex items-center justify-center",
+    image: "/images/clients/asa.png",
   },
   {
     name: "SKB",
-    logo: null,
-    text: "SKB",
-    style: "font-serif font-bold text-navy text-sm border-2 border-navy px-2 py-1",
+    image: "/images/clients/skb.png",
   },
 ];
 
@@ -60,13 +45,18 @@ export default function Clients() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) entry.target.classList.add("visible");
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
         });
       },
       { threshold: 0.1 }
     );
+
     const elements = sectionRef.current?.querySelectorAll(".section-reveal");
+
     elements?.forEach((el) => observer.observe(el));
+
     return () => observer.disconnect();
   }, []);
 
@@ -77,6 +67,7 @@ export default function Clients() {
           <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-2">
             KLIEN
           </p>
+
           <h2
             className="text-3xl sm:text-4xl font-bold text-navy"
             style={{ fontFamily: "var(--font-heading)" }}
@@ -89,11 +80,16 @@ export default function Clients() {
           {clients.slice(0, 4).map((client, idx) => (
             <div
               key={client.name}
-              className="section-reveal trusted-logo flex items-center justify-center h-16 px-4"
+              className="section-reveal trusted-logo flex items-center justify-center h-20"
               style={{ transitionDelay: `${idx * 0.08}s` }}
-              title={client.name}
             >
-              <span className={client.style}>{client.text}</span>
+              <Image
+                src={client.image}
+                alt={client.name}
+                width={180}
+                height={80}
+                className="object-contain max-h-16 w-auto"
+              />
             </div>
           ))}
         </div>
@@ -102,11 +98,16 @@ export default function Clients() {
           {clients.slice(4).map((client, idx) => (
             <div
               key={client.name}
-              className="section-reveal trusted-logo flex items-center justify-center h-16 px-4"
+              className="section-reveal trusted-logo flex items-center justify-center h-20"
               style={{ transitionDelay: `${(idx + 4) * 0.08}s` }}
-              title={client.name}
             >
-              <span className={client.style}>{client.text}</span>
+              <Image
+                src={client.image}
+                alt={client.name}
+                width={180}
+                height={80}
+                className="object-contain max-h-16 w-auto"
+              />
             </div>
           ))}
         </div>
