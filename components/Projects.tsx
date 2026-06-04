@@ -7,35 +7,27 @@ import { ArrowRight, MapPin } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Gedung Perkantoran Modern",
-    category: "Commercial",
-    location: "Jakarta Selatan",
-    year: "2023",
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
+    title: "Isolasi Pipa",
+    location: "Batam",
+    image: "/images/isolasi-pipa.jpg",
   },
   {
     id: 2,
-    title: "Fasilitas Industri Berat",
-    category: "Industrial",
-    location: "Bekasi, Jawa Barat",
-    year: "2023",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    title: "Vessel dan Pipa",
+    location: "Belawan",
+    image: "/images/vese;-dan-pipa.avif",
   },
   {
     id: 3,
-    title: "Kompleks Residensial",
-    category: "Residential",
-    location: "Tangerang Selatan",
-    year: "2022",
-    image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=80",
+    title: "Vertical Sterillizer",
+    location: "Jambi",
+    image: "/images/vertikal-sterillizer.jpeg",
   },
   {
     id: 4,
-    title: "Heliport & Terminal",
-    category: "Industrial",
-    location: "Kalimantan Timur",
-    year: "2022",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+    title: "Pemasangan Chimney",
+    location: "Sei Mangke",
+    image: "/images/chimney.webp",
   },
 ];
 
@@ -101,9 +93,6 @@ export default function Projects() {
                 />
                 <div className="project-card-overlay">
                   <div>
-                    <span className="text-white/70 text-xs font-semibold tracking-wider uppercase">
-                      {project.category}
-                    </span>
                     <p className="text-white font-bold text-lg mt-1" style={{ fontFamily: "var(--font-heading)" }}>
                       {project.title}
                     </p>
@@ -123,7 +112,6 @@ export default function Projects() {
                   >
                     {project.category}
                   </span>
-                  <span className="text-xs text-gray-400">{project.year}</span>
                 </div>
                 <h3 className="text-sm font-bold text-navy mt-2 group-hover:text-primary transition-colors">
                   {project.title}
