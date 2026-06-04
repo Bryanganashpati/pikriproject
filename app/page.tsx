@@ -17,13 +17,16 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Alasan />
-      
-      <Projects />
-      <Services />
       <Portfolio />
+      <Services />
+      <Alasan />
       <About />
       <CostEstimate />
+      <Projects />
+      
+      
+      
+      
       <Banner />
       <Clients />
       <Contact />
