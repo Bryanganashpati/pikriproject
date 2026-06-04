@@ -104,15 +104,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="bg-white p-4 border border-gray-100">
-                <div className="flex items-center justify-between">
-                  <span
-                    className={`text-xs font-semibold px-2 py-0.5 rounded ${
-                      categoryColors[project.category]
-                    }`}
-                  >
-                    {project.category}
-                  </span>
-                </div>
+                
                 <h3 className="text-sm font-bold text-navy mt-2 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
