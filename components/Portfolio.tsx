@@ -26,7 +26,7 @@ const projects = [
     title: "Pekerjaan Isolasi Pipa",
     category: "Isolasi Pipa",
     image:
-      "https://images.unsplash.com/photo-1565610222536-ef125c59da2d?w=1200&q=80",
+      "/images/isolasipipa.jpg",
     location: "Batam",
     area: "Plant Area",
     budget: "Industrial Project",
@@ -93,20 +93,6 @@ const projects = [
 
   {
     id: 6,
-    title: "Ducting Installation",
-    category: "Ducting",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22731d8c3f?w=1200&q=80",
-    location: "Medan",
-    area: "Industrial Building",
-    budget: "Industrial Project",
-    testimonial:
-      "Instalasi ducting dilakukan dengan presisi dan hasil yang rapi.",
-    client: "Pak Re",
-  },
-
-  {
-    id: 7,
     title: "Pekerjaan Mekanikal Industri",
     category: "Pekerjaan Mekanikal",
     image:
