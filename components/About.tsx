@@ -48,15 +48,18 @@ export default function About() {
           </h2>
 
           <p className="text-gray-600 leading-relaxed">
-            <strong className="text-navy">
-              CV Karunia Andalan Sejahtera
-            </strong>{" "}
-            adalah perusahaan jasa konstruksi yang bergerak di bidang
-            pembangunan, renovasi, desain, dan manajemen proyek. Dengan
-            pengalaman lebih dari 13 tahun, kami telah menangani berbagai
-            proyek rumah tinggal, ruko, bangunan komersial, fasilitas
-            industri, hingga pembangunan pabrik.
-          </p>
+  <strong className="text-navy">
+    CV Karunia Andalan Sejahtera
+  </strong>{" "}
+  merupakan perusahaan Contractor Man Power yang mengkhususkan diri dalam
+  penyediaan tenaga kerja ahli di bidang insulation contractor. Kami
+  mendukung berbagai sektor industri dengan tenaga kerja terlatih untuk
+  pekerjaan thermal insulation, cold insulation, cladding, maintenance,
+  shutdown project, hingga commissioning. Dengan pengalaman lebih dari 13
+  tahun, kami menjadi mitra terpercaya dalam menyediakan sumber daya
+  profesional yang mengutamakan keselamatan kerja, kualitas, dan efisiensi
+  proyek.
+</p>
         </div>
 
         {/* Statistik */}

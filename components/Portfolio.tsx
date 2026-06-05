@@ -3,100 +3,120 @@
 import { useState } from "react";
 import {
   MapPin,
-  Ruler,
-  Wallet,
+  Briefcase,
+  Building2,
   Star,
 } from "lucide-react";
 
 const categories = [
   "Semua",
-  "Rumah Tinggal",
-  "Renovasi",
-  "Interior",
-  "Ruko",
-  "Minimalis Modern",
-  "Industrial",
-  "Scandinavian",
+  "Isolasi Pipa",
+  "Vessel & Pipa",
+  "Sterilizer",
+  "Digester",
+  "Oil Tank",
+  "Boiler",
+  "Ducting",
+  "Pekerjaan Mekanikal",
 ];
 
 const projects = [
   {
     id: 1,
-    title: "Rumah Minimalis Modern 2 Lantai",
-    category: "Minimalis Modern",
+    title: "Pekerjaan Isolasi Pipa",
+    category: "Isolasi Pipa",
     image:
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-    location: "Surabaya",
-    area: "180 m²",
-    budget: "Rp 850 Juta",
+      "https://images.unsplash.com/photo-1565610222536-ef125c59da2d?w=1200&q=80",
+    location: "Batam",
+    area: "Plant Area",
+    budget: "Industrial Project",
     testimonial:
-      "Pengerjaan rapi, tepat waktu, dan hasil sesuai desain.",
-    client: "Bapak Andi",
+      "Pekerjaan insulasi pipa selesai sesuai standar industri dan tepat waktu.",
+    client: "PT Ecogreen",
   },
+
   {
     id: 2,
-    title: "Renovasi Rumah Tinggal",
-    category: "Renovasi",
+    title: "Insulasi Vessel dan Pipa",
+    category: "Vessel & Pipa",
     image:
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80",
-    location: "Sidoarjo",
-    area: "120 m²",
-    budget: "Rp 250 Juta",
+      "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&q=80",
+    location: "Belawan",
+    area: "Factory Area",
+    budget: "Industrial Project",
     testimonial:
-      "Proses renovasi berjalan lancar dan transparan.",
-    client: "Ibu Rina",
+      "Kualitas pekerjaan sangat baik dengan hasil yang rapi dan profesional.",
+    client: "PT Musim Mas",
   },
+
   {
     id: 3,
-    title: "Interior Ruang Tamu Scandinavian",
-    category: "Scandinavian",
+    title: "Vertical Sterilizer & Digester",
+    category: "Sterilizer",
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80",
-    location: "Gresik",
-    area: "75 m²",
-    budget: "Rp 80 Juta",
+      "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=1200&q=80",
+    location: "Jambi",
+    area: "Palm Oil Mill",
+    budget: "Industrial Project",
     testimonial:
-      "Desain interior sangat nyaman dan modern.",
-    client: "Bapak Dimas",
+      "Tim bekerja profesional dan mampu memenuhi target proyek.",
+    client: "PT Samudra Mahkota Mas",
   },
+
   {
     id: 4,
-    title: "Pembangunan Ruko 3 Lantai",
-    category: "Ruko",
+    title: "Boiler Feed Tank Insulation",
+    category: "Boiler",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
-    location: "Surabaya",
-    area: "350 m²",
-    budget: "Rp 1,8 Miliar",
+      "https://images.unsplash.com/photo-1581092919535-7146ff1a590b?w=1200&q=80",
+    location: "Simpang Koran",
+    area: "Boiler Area",
+    budget: "Industrial Project",
     testimonial:
-      "Proyek selesai sesuai target dan kualitas memuaskan.",
-    client: "PT Maju Jaya",
+      "Pengerjaan boiler insulation sesuai spesifikasi dan standar keselamatan.",
+    client: "PT Surya Makmur Sawit",
   },
+
   {
     id: 5,
-    title: "Gudang & Workshop Industrial",
-    category: "Industrial",
+    title: "Oil Feed Tank & CST Insulation",
+    category: "Oil Tank",
     image:
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=80",
-    location: "Gresik",
-    area: "800 m²",
-    budget: "Rp 3,5 Miliar",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200&q=80",
+    location: "Bengkulu",
+    area: "Storage Tank Area",
+    budget: "Industrial Project",
     testimonial:
-      "Tim profesional dan sangat berpengalaman.",
-    client: "PT Sukses Mandiri",
+      "Proyek berjalan lancar dengan kualitas pekerjaan yang memuaskan.",
+    client: "PT Agromuko Bunga Tanjung",
   },
+
   {
     id: 6,
-    title: "Rumah Tinggal Modern",
-    category: "Rumah Tinggal",
+    title: "Ducting Installation",
+    category: "Ducting",
     image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-    location: "Malang",
-    area: "150 m²",
-    budget: "Rp 650 Juta",
+      "https://images.unsplash.com/photo-1581092160607-ee22731d8c3f?w=1200&q=80",
+    location: "Medan",
+    area: "Industrial Building",
+    budget: "Industrial Project",
     testimonial:
-      "Hasil bangunan sangat memuaskan dan berkualitas.",
-    client: "Bapak Yusuf",
+      "Instalasi ducting dilakukan dengan presisi dan hasil yang rapi.",
+    client: "Pak Re",
+  },
+
+  {
+    id: 7,
+    title: "Pekerjaan Mekanikal Industri",
+    category: "Pekerjaan Mekanikal",
+    image:
+      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=1200&q=80",
+    location: "Nagan Raya, Aceh",
+    area: "Factory Area",
+    budget: "Industrial Project",
+    testimonial:
+      "Didukung tenaga kerja profesional dan berpengalaman di bidang mekanikal.",
+    client: "PT Bepans KIM",
   },
 ];
 
@@ -124,13 +144,14 @@ export default function Projects() {
             className="text-3xl sm:text-4xl font-bold text-navy mb-4"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            Hasil Pekerjaan Kami
+            Proyek Specialist Insulation
           </h2>
 
           <p className="text-gray-600">
-            Jelajahi berbagai proyek yang telah kami selesaikan sebagai
-            bukti komitmen kami terhadap kualitas, ketepatan waktu,
-            dan kepuasan pelanggan.
+            Berbagai proyek insulation, mechanical work, piping,
+            vessel, tank, boiler, dan ducting yang telah kami
+            selesaikan untuk sektor industri, manufaktur,
+            pembangkit, dan pabrik kelapa sawit.
           </p>
         </div>
 
@@ -140,10 +161,10 @@ export default function Projects() {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition ${
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === category
                   ? "bg-red-600 text-white"
-                  : "bg-white text-gray-700 border"
+                  : "bg-white text-gray-700 border hover:border-red-600 hover:text-red-600"
               }`}
             >
               {category}
@@ -156,9 +177,9 @@ export default function Projects() {
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition"
+              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300"
             >
-              {/* Project Image */}
+              {/* Image */}
               <img
                 src={project.image}
                 alt={project.title}
@@ -175,19 +196,19 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
-                <div className="space-y-2 text-sm text-gray-600 mb-5">
+                <div className="space-y-3 text-sm text-gray-600 mb-5">
                   <div className="flex items-center gap-2">
                     <MapPin size={16} />
                     {project.location}
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <Ruler size={16} />
+                    <Building2 size={16} />
                     {project.area}
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <Wallet size={16} />
+                    <Briefcase size={16} />
                     {project.budget}
                   </div>
                 </div>
@@ -195,15 +216,17 @@ export default function Projects() {
                 {/* Testimoni */}
                 <div className="bg-gray-50 rounded-xl p-4">
                   <div className="flex items-center gap-1 mb-2 text-yellow-500">
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
-                    <Star size={16} fill="currentColor" />
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <Star
+                        key={star}
+                        size={16}
+                        fill="currentColor"
+                      />
+                    ))}
                   </div>
 
                   <p className="text-sm text-gray-600 italic mb-2">
-                    &quot;{project.testimonial}&quot;
+                    "{project.testimonial}"
                   </p>
 
                   <p className="text-xs font-semibold text-navy">
