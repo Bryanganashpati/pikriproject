@@ -27,7 +27,7 @@ export default function Banner() {
           className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          BANGUN ERA KONSTRUKSI
+          KARUNIA ANDALAN SEJAHTERA
         </h2>
         <div className="w-16 h-0.5 bg-primary mx-auto mb-6" />
         <p className="text-white/80 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">

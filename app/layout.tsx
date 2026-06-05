@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "CV Karunia Andalan Sejahtera - Trusted Engineering, Procurement & Construction",
   description:
     "CV Karunia Andalan Sejahtera adalah jasa kontraktor dan EPC (Engineering, Procurement, and Construction). Melayani konstruksi industri, komersial, dan residensial.",
-  keywords: "konstruksi, EPC, engineering, procurement, kontraktor Indonesia, Bangun Era Konstruksi",
+  keywords: "konstruksi, EPC, engineering, procurement, kontraktor Indonesia, Karunia Andalan Sejahtera",
 };
 
 export default function RootLayout({
