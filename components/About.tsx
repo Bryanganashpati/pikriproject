@@ -205,7 +205,7 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-6">
   <div>
     <img
-      src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80"
+      src="/images/dokumentasi1.jpg"
       alt="Tim Lapangan"
       className="rounded-2xl h-72 w-full object-cover"
     />
@@ -214,7 +214,7 @@ export default function About() {
 
   <div>
     <img
-      src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80"
+      src="/images/dokumentasi2.jpg"
       alt="Kantor"
       className="rounded-2xl h-72 w-full object-cover"
     />
@@ -223,7 +223,7 @@ export default function About() {
 
   <div>
     <img
-      src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+      src="/images/dokumentasi3.jpg"
       alt="Proyek"
       className="rounded-2xl h-72 w-full object-cover"
     />
