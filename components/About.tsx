@@ -207,7 +207,7 @@ export default function About() {
     <img
       src="/images/dokumentasi1.jpg"
       alt="Tim Lapangan"
-      className="rounded-2xl h-72 w-full object-cover"
+      className="rounded-2xl h-auto w-full object-cover"
     />
     
   </div>
@@ -216,7 +216,7 @@ export default function About() {
     <img
       src="/images/dokumentasi2.jpg"
       alt="Kantor"
-      className="rounded-2xl h-72 w-full object-cover"
+      className="rounded-2xl h-auto w-full object-cover"
     />
     
   </div>
@@ -225,7 +225,7 @@ export default function About() {
     <img
       src="/images/dokumentasi3.jpg"
       alt="Proyek"
-      className="rounded-2xl h-72 w-full object-cover"
+      className="rounded-2xl h-auto w-full object-cover"
     />
   </div>
 </div>
