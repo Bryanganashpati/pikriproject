@@ -10,23 +10,19 @@ import {
 
 const categories = [
   "Semua",
-  "Isolasi Pipa",
-  "Vessel & Pipa",
-  "Sterilizer",
-  "Digester",
-  "Oil Tank",
-  "Boiler",
-  "Ducting",
-  "Pekerjaan Mekanikal",
+  "Insulation",
+  "Mekanikal",
+  "Sipil",
+  "Pengecetan",
 ];
 
 const projects = [
   {
     id: 1,
-    title: "Pekerjaan Isolasi Pipa",
-    category: "Isolasi Pipa",
+    title: "Pekerjaan Isolasi Pipa & Vessel",
+    category: "Insulation",
     image:
-      "/images/isolasipipa.jpg",
+      "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&q=80",
     location: "Batam",
     area: "Plant Area",
     budget: "Industrial Project",
@@ -37,64 +33,8 @@ const projects = [
 
   {
     id: 2,
-    title: "Insulasi Vessel dan Pipa",
-    category: "Vessel & Pipa",
-    image:
-      "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&q=80",
-    location: "Belawan",
-    area: "Factory Area",
-    budget: "Industrial Project",
-    testimonial:
-      "Kualitas pekerjaan sangat baik dengan hasil yang rapi dan profesional.",
-    client: "PT Musim Mas",
-  },
-
-  {
-    id: 3,
-    title: "Vertical Sterilizer & Digester",
-    category: "Sterilizer",
-    image:
-      "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=1200&q=80",
-    location: "Jambi",
-    area: "Palm Oil Mill",
-    budget: "Industrial Project",
-    testimonial:
-      "Tim bekerja profesional dan mampu memenuhi target proyek.",
-    client: "PT Samudra Mahkota Mas",
-  },
-
-  {
-    id: 4,
-    title: "Boiler Feed Tank Insulation",
-    category: "Boiler",
-    image:
-      "https://images.unsplash.com/photo-1581092919535-7146ff1a590b?w=1200&q=80",
-    location: "Simpang Koran",
-    area: "Boiler Area",
-    budget: "Industrial Project",
-    testimonial:
-      "Pengerjaan boiler insulation sesuai spesifikasi dan standar keselamatan.",
-    client: "PT Surya Makmur Sawit",
-  },
-
-  {
-    id: 5,
-    title: "Oil Feed Tank & CST Insulation",
-    category: "Oil Tank",
-    image:
-      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200&q=80",
-    location: "Bengkulu",
-    area: "Storage Tank Area",
-    budget: "Industrial Project",
-    testimonial:
-      "Proyek berjalan lancar dengan kualitas pekerjaan yang memuaskan.",
-    client: "PT Agromuko Bunga Tanjung",
-  },
-
-  {
-    id: 6,
     title: "Pekerjaan Mekanikal Industri",
-    category: "Pekerjaan Mekanikal",
+    category: "Mekanikal",
     image:
       "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=1200&q=80",
     location: "Nagan Raya, Aceh",
@@ -103,6 +43,34 @@ const projects = [
     testimonial:
       "Didukung tenaga kerja profesional dan berpengalaman di bidang mekanikal.",
     client: "PT Bepans KIM",
+  },
+
+  {
+    id: 3,
+    title: "Pekerjaan Sipil Struktur Plant",
+    category: "Sipil",
+    image:
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80",
+    location: "Jambi",
+    area: "Palm Oil Mill",
+    budget: "Industrial Project",
+    testimonial:
+      "Tim bekerja profesional dan mampu memenuhi target proyek tepat waktu.",
+    client: "PT Samudra Mahkota Mas",
+  },
+
+  {
+    id: 4,
+    title: "Pengecetan Tank & Struktur Baja",
+    category: "Pengecetan",
+    image:
+      "https://images.unsplash.com/photo-1581092919535-7146ff1a590b?w=1200&q=80",
+    location: "Simpang Koran",
+    area: "Storage Tank Area",
+    budget: "Industrial Project",
+    testimonial:
+      "Hasil pengecetan rapi, tahan lama, dan sesuai spesifikasi yang diminta.",
+    client: "PT Surya Makmur Sawit",
   },
 ];
 
@@ -134,10 +102,10 @@ export default function Projects() {
           </h2>
 
           <p className="text-gray-600">
-            Berbagai proyek insulation, mechanical work, piping,
-            vessel, tank, boiler, dan ducting yang telah kami
-            selesaikan untuk sektor industri, manufaktur,
-            pembangkit, dan pabrik kelapa sawit.
+            Berbagai proyek insulation, mekanikal, sipil, dan
+            pengecetan yang telah kami selesaikan untuk sektor
+            industri, manufaktur, pembangkit, dan pabrik kelapa
+            sawit.
           </p>
         </div>
 
