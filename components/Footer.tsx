@@ -13,7 +13,7 @@ const menuLinks = [
 
 const layananLinks = [
   { label: "Insulation", href: "#projects" },
-  { label: "Mekanikal", href: "#service" },
+  { label: "Mekanikal", href: "#services" },
   { label: "Sipil", href: "#layanan" },
   { label: "Pengecetan", href: "#layanan"},
 ];
