@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const clients = [
   {
-    name: "PT ECOGREEN",
-    image: "/images/ecogreen.png",
+    name: "WILMAR GROUP",
+    image: "/images/wilmar-group.png",
   },
   {
-    name: "PT MUSIM MAS",
-    image: "/images/musimmas.png",
+    name: "PT MEDISAFE TECHNOLOGIES",
+    image: "/images/medisafe-technologies.png",
   },
   {
-    name: "PT PACIFIC MEDAN INDUSTRI",
-    image: "/images/pamin.png",
+    name: "PT PERMATA HIJAU INDONESIA",
+    image: "/images/permata-hijau.png",
   },
   {
     name: "PT EVYAP SABUN INDONESIA",
