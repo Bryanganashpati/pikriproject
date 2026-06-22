@@ -12,8 +12,8 @@ const navItems = [
     label: "Layanan",
     href: "#layanan",
     children: [
-      { label: "Engineering", href: "#layanan" },
-      { label: "Procurement", href: "#layanan" },
+      { label: "Engineering", href: "#projects" },
+      { label: "Procurement", href: "#service" },
       { label: "Construction", href: "#layanan" },
       { label: "Pengecetan", href: "#layanan"},
     ],

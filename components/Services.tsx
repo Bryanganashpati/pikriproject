@@ -116,7 +116,7 @@ export default function Services() {
           <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-2">
             APA YANG KAMI TAWARKAN
           </p>
-          <h2
+          <h2 id: "service"
             className="text-3xl sm:text-4xl font-bold text-navy mb-3"
             style={{ fontFamily: "var(--font-heading)" }}
           >
