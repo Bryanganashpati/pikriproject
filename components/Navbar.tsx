@@ -15,7 +15,6 @@ const navItems = [
       { label: "Engineering", href: "#projects" },
       { label: "Procurement", href: "#services" },
       { label: "Construction", href: "#layanan" },
-      { label: "Pengecetan", href: "#layanan"},
     ],
   },
   { label: "Informasi", href: "#info" },
