@@ -245,7 +245,7 @@ export default function CostEstimate() {
         </div>
 
         {/* CTA */}
-        <div className="bg-red-600 rounded-3xl p-10 text-center text-white">
+        <div id="layanan" className="bg-red-600 rounded-3xl p-10 text-center text-white">
           <h3 className="text-3xl font-bold mb-4">
             Butuh Estimasi Biaya Proyek?
           </h3>

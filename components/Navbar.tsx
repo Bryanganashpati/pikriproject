@@ -10,11 +10,12 @@ const navItems = [
   { label: "Proyek", href: "#projects" },
   {
     label: "Layanan",
-    href: "#services",
+    href: "#layanan",
     children: [
-      { label: "Engineering", href: "#engineering" },
-      { label: "Procurement", href: "#procurement" },
-      { label: "Construction", href: "#construction" },
+      { label: "Engineering", href: "#layanan" },
+      { label: "Procurement", href: "#layanan" },
+      { label: "Construction", href: "#layanan" },
+      { label: "Pengecetan", href: "#layanan"},
     ],
   },
   { label: "Informasi", href: "#info" },

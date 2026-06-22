@@ -12,9 +12,10 @@ const menuLinks = [
 ];
 
 const layananLinks = [
-  { label: "Engineering", href: "#engineering" },
-  { label: "Procurement", href: "#procurement" },
-  { label: "Konstruksi", href: "#construction" },
+  { label: "Insulation", href: "#layanan" },
+  { label: "Mekanikal", href: "#layanan" },
+  { label: "Sipil", href: "#layanan" },
+  { label: "Pengecetan", href: "#layanan"},
 ];
 
 export default function Footer() {
